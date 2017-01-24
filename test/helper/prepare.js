@@ -40,6 +40,7 @@ function It(method, path, data, expectedStatusCode, expectedPattern) {
 
 module.exports = {
     It: It,
+
     assertPresent: function (message, actual) {
         if (!actual) {
             throw new Error('testing ' + message + ' should be present, but got: ' + actual);

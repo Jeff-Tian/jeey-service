@@ -17,7 +17,7 @@ function handleExecuteResult(cb) {
         console.log(results);
         console.log(fields);
         console.log('-----------');
-        cb(err, results, fields);
+        cb(err, results);
     };
 }
 
