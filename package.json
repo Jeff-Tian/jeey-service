@@ -1,0 +1,30 @@
+{
+  "name": "buzz-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --harmony",
+    "start": "node app.js --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/hcdlearning/buzz-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/hcdlearning/buzz-service#readme",
+  "devDependencies": {
+    "co-mocha": "^1.1.3",
+    "co-supertest": "0.0.10",
+    "supertest": "^2.0.1"
+  },
+  "dependencies": {
+    "co-body": "^4.2.0",
+    "co-retry.js": "*",
+    "koa": "^1.2.4",
+    "koa-mount": "^1.3.0",
+    "koa-router": "^5.4.0",
+    "mysql": "^2.12.0"
+  }
+}
