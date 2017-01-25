@@ -7,7 +7,7 @@ var config =
 
         db: {
             host: 'localhost',
-            user: 'root',
+            user: 'xxxx',
             password: 'root',
             database: 'jeey'
         }
